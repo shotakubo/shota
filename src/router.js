@@ -2,6 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
 import Todo from "./views/Todo.vue";
+import Memo from "./views/Memo.vue";
 
 Vue.use(Router);
 
@@ -23,6 +24,11 @@ export default new Router({
       path: "/todo",
       name: "todo",
       component: Todo
+    },
+    {
+      path: "/memo",
+      name: "memo",
+      component: Memo
     }
   ]
 });
