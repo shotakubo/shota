@@ -12,7 +12,6 @@
 
 <script>
 export default {
-  /* eslint-disable */
   name: "todo",
   data: function() {
     return {

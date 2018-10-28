@@ -4,7 +4,9 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/todo">Todo</router-link> |
-      <router-link to="/memo">Memo</router-link>
+      <router-link to="/memo">Memo</router-link> |
+      <router-link to="/sheet">Sheet</router-link> |
+      <router-link to="/books">Books</router-link>
     </div>
     <router-view/>
   </div>
