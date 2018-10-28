@@ -2,7 +2,9 @@ import * as types from "./types";
 
 export const state = {
   message: "久保",
-  users: []
+  users: [],
+  sheetList: [],
+  books: []
 };
 
 export const mutations = {
@@ -11,5 +13,11 @@ export const mutations = {
   },
   [types.SET_USER](state, response) {
     state.users = response.data.users;
+  },
+  [types.SET_GSHEET](state, response) {
+    state.sheetList = response;
+  },
+  [types.SET_BOOKS](state, response) {
+    state.books = response;
   }
 };

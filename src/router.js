@@ -3,6 +3,8 @@ import Router from "vue-router";
 import Home from "./views/Home.vue";
 import Todo from "./views/Todo.vue";
 import Memo from "./views/Memo.vue";
+import Sheet from "./views/Sheet.vue";
+import Books from "./views/Books.vue";
 
 Vue.use(Router);
 
@@ -29,6 +31,16 @@ export default new Router({
       path: "/memo",
       name: "memo",
       component: Memo
+    },
+    {
+      path: "/sheet",
+      name: "sheet",
+      component: Sheet
+    },
+    {
+      path: "/books",
+      name: "books",
+      component: Books
     }
   ]
 });

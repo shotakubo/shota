@@ -40,7 +40,7 @@ export default {
       getUsers: "getUsers"
     }),
     update() {
-      this.MESSAGE_UPDATE(); // mutationをコールします
+      this.MESSAGE_UPDATE();
     }
   }
 };
