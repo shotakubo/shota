@@ -14,8 +14,6 @@ import { mapState, mapMutations, mapActions } from "vuex";
 import { MESSAGE_UPDATE } from "../store/types";
 export default {
   name: "sheet",
-  components: {
-  },
   computed: {
     ...mapState({
       sheetList: "sheetList"
