@@ -11,7 +11,6 @@
 import TextArea from "@/components/TextArea.vue";
 
 export default {
-  /* eslint-disable */
   name: "memo",
   components: {
     TextArea
