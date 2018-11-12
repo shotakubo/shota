@@ -10,8 +10,7 @@
 </template>
 
 <script>
-import { mapState, mapMutations, mapActions } from "vuex";
-import { MESSAGE_UPDATE } from "../store/types";
+import { mapState, mapActions } from "vuex";
 export default {
   name: "sheet",
   computed: {
