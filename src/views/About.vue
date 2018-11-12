@@ -28,9 +28,12 @@
 </template>
 
 <script>
+import Vue from "vue";
 import { mapState, mapMutations, mapActions } from "vuex";
 import { MESSAGE_UPDATE } from "../store/types";
+
 export default {
+  name: "about",
   data: function() {
     return {
       image: "",
@@ -72,9 +75,9 @@ export default {
       };
       reader.readAsDataURL(file);
     },
-    removeImage: function(e) {
+    removeImage: function() {
       this.image = "";
     }
   }
-}
+};
 </script>

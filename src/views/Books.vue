@@ -23,21 +23,18 @@
 
 <script>
 //in your app.js or similar file
-import Vue from 'vue';
-import { mapState, mapMutations, mapActions } from "vuex";
-import { MESSAGE_UPDATE } from "../store/types";
-import { Tabs, Tab } from 'vue-tabs-component';
+import Vue from "vue";
+import { mapState, mapActions } from "vuex";
+import { Tabs, Tab } from "vue-tabs-component";
 
-Vue.component('tabs', Tabs);
-Vue.component('tab', Tab);
+Vue.component("tabs", Tabs);
+Vue.component("tab", Tab);
 export default {
   name: "books",
-    data: function() {
+  data: function() {
     return {
-      writerList: ['入間人間']
+      writerList: ["入間人間"]
     };
-  },
-  components: {
   },
   computed: {
     ...mapState({
